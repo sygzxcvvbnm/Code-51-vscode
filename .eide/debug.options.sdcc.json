@@ -1,0 +1,17 @@
+{
+    "version": 3,
+    "beforeBuildTasks": [],
+    "afterBuildTasks": [],
+    "global": {
+        "device": "mcs51",
+        "optimize-type": "speed"
+    },
+    "c/cpp-compiler": {
+        "language-c": "c11"
+    },
+    "asm-compiler": {},
+    "linker": {
+        "$mainFileName": "main",
+        "output-format": "hex"
+    }
+}
