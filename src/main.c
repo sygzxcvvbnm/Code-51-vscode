@@ -16,7 +16,7 @@ uchar KeyNum;
     uint m;
     uint h;
     uint d;
-
+uint l;
 
 void main(){
     Timer0_Init();
