@@ -3,6 +3,7 @@
 
 #define uchar unsigned char
 
+//定时器0初始化
 void Timer0_Init();
 
 #endif

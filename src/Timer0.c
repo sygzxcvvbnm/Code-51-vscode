@@ -15,13 +15,13 @@ void Timer0_Init()		//1毫秒@11.0592MHz
     PT0 = 0; 
 }
 
-//main函数示例：
+// main函数定时器1示例：
 
 // void Timer1_Routine() interrupt 1{
 //     static uint T0Count = 0;
 //     TL0 = 0xCD;				//设置定时初始值
 // 	TH0 = 0xD4;				//设置定时初始值
-//     T0Count++;
+//     T0Count++;				//定时器自加1
 //     if (T0Count >=100)
 //     {
 //         T0Count = 0;

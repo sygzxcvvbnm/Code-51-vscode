@@ -1,4 +1,10 @@
 #include <intrins.h>
+
+/**
+ * @brief 单片机主核心延时函数
+ * 
+ * @param i 毫秒级，1000ms=1s
+ */
 void delay(unsigned int i)		//@11.0592MHz
 {
     int j = 0;
