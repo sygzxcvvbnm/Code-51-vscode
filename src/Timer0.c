@@ -1,6 +1,7 @@
 #include <atmel/REGX52.H>
 #define uint unsigned int
-sfr AUXR=0X8E;    //NOTES:sbit是位操作，用于将某个sfr中具体位赋值给一个变量
+
+sfr AUXR=0X8E;    		//sbit是位操作，用于将某个sfr中具体位赋值给一个变量
 
 void Timer0_Init()		//1毫秒@11.0592MHz
 {
