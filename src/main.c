@@ -23,7 +23,7 @@ void main(){
     OLED_Init();
     OLED_Clear();
     while(1){
-
+        
         OLED_ShowCHinese(0,0,0);//
         OLED_ShowCHinese(16,0,1);//
         OLED_ShowCHinese(16*2,0,2);//
